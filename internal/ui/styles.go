@@ -15,7 +15,8 @@ type Styles struct {
 }
 
 func InitializeStyles() *Styles {
-	output := termenv.NewOutput(os.Stdout)
+	// We'll use the output for color support detection
+	_ = termenv.NewOutput(os.Stdout)
 
 	return &Styles{
 		ErrorStyle: lipgloss.NewStyle().
