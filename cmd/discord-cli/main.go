@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/yourusername/discord-cli/internal/config"
-	"github.com/yourusername/discord-cli/internal/discord"
-	"github.com/yourusername/discord-cli/internal/ui"
+	"github.com/matu6968/project-lite-go/internal/config"
+	"github.com/matu6968/project-lite-go/internal/discord"
+	"github.com/matu6968/project-lite-go/internal/ui"
 )
 
 func main() {

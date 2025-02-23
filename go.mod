@@ -1,4 +1,4 @@
-module github.com/yourusername/discord-cli
+module github.com/matu6968/project-lite-go
 
 go 1.21
 
